@@ -28,7 +28,7 @@ body{
 }
 
 main{
-    width: 90vw;
+    width: 95vw;
     max-height: 100vh;
     border-radius: 20px;
     background-color: var(--branco);
