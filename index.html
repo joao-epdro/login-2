@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/tablet.css">
+    <title>Projeto Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" />
+</head>
+<body>
+    <main>
+        <div id="imagem">
+            
+        </div>
+        <section>
+            <h1>
+                Login
+            </h1>
+            <p>
+                Seja bem vindo(a) novamente. faça login para poder acessar sua conta e poder fazer as configuraçoes no seu ambiente.
+            </p>
+            <form action="cadastro.php" autocomplete="on" method="post">
+                <div>
+                    <label for="credenciais">
+                        <i class="fa-solid fa-user" id="icone"></i>
+                        <input type="email" name="email" id="credenciais" placeholder="Seu email" required>
+                    </label>
+                </div>
+                <div>
+                    <label for="isenha">
+                        <i class="fa-solid fa-key" id="icone"></i>
+                        <input type="password" name="senha" id="isenha" required placeholder="sua senha">
+                    </label>
+                </div>
+                <input type="submit" value="Entrar" id="entrar">
+                <button id="esqueci">
+                    Esqueci a senha
+                </button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
