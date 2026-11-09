@@ -85,12 +85,14 @@ label{
     border-radius: 10px;
     margin-bottom: 1rem;
     background-color: var(--azul-petroleo);
+    border: none;
 }
 #esqueci{
     height: 2.5rem;
     width: 100%;
     border-radius: 10px;
     margin-bottom: 1rem;
+    border: none;
 }
 #icone{
     color: var(--branco);
